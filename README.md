@@ -69,22 +69,6 @@ Timeout Errors: The app has a 10-second timeout for API requests. If the server 
 Server Errors: If the server returns an error (such as a 500 Internal Server Error or 400 Bad Request), the app will display the appropriate message.
 Network Errors: If there is no network connection or other issues with the API, the app will show a generic error message.
 
-### Project Structure
-The project is organized as follows:
-
-php
-react-api-app/
-├── public/
-│   └── index.html                   # Main HTML file
-├── src/
-│   ├── components/                  # React components (Verification.js, AuthenticationForm.js)
-│   ├── config/                      # Configuration files (apiConfig.js)
-│   ├── App.js                       # Main App component
-│   ├── index.js                     # Entry point for React
-│   └── App.css                      # App styling (optional)
-├── .gitignore                       # Git ignore file
-├── package.json                     # Project metadata and dependencies
-└── README.md                        # Project documentation
 
 ### Files of Interest:
 src/components/Verification.js: Handles email verification.
